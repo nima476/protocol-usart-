@@ -10,5 +10,9 @@ simulation software : recommend Proteus
 
 microcontroller: every microcontroller with usart protocol
 
-sensor: for this project LM35 but you can use any sensor if you know how to make analog to digital
+sensor: for this project LM35 but you can use any sensor if you know how to make analog to digital converter 
 
+# Getting Started 
+in this project we use usart protocol to transmit data from atmega32 to matlab and plot the data in chart from the lm35 
+
+# 
