@@ -37,7 +37,7 @@ This project enables seamless serial communication between an ATmega32 microcont
 
 - **Hardware:** ATmega32 microcontroller, USB-to-serial converter or(visual serial COM PORT), PC with MATLAB
 - **Software:** 
-  - AVR toolchain (AVR-GCC, AVRDUDE)
+  - AVR compiler (codevision)
   - MATLAB
 
 ### Setup
