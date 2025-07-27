@@ -43,16 +43,21 @@ This project enables seamless serial communication between an ATmega32 microcont
 ### Setup
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/nima476/protocol-usart-.git
-   cd protocol-usart-
-   ```
-2. **Build and flash the microcontroller code** (refer to `/src` directory for details).
-3. **Connect the ATmega32 to your PC** via USART (use USB-to-serial if needed).
-4. **Run MATLAB scripts** in the `/matlab` directory to start communication.
-5. (Optional) **Execute Perl utilities** for additional automation or testing.
+   - Download the ZIP from GitHub or use Git for Windows:
+     ```bash
+     git clone https://github.com/nima476/protocol-usart-.git
+     cd protocol-usart-
+     ```
+2. **Build and flash the microcontroller code**
+   - Open the Assembly/C source files using codevision.
+   - Use code wizard beacuse it more easier.
+3. **Connect the ATmega32 to your PC**
+   - Use a USB-to-serial(usb to TTL) converter and ensure the correct COM port is installed and recognized by Windows Device Manager.
+4. **Run MATLAB scripts**
+   - Open MATLAB, and run the provided scripts to initiate communication.
 
 ---
+
 
 ## Repository Structure
 
@@ -60,10 +65,8 @@ This project enables seamless serial communication between an ATmega32 microcont
 /
 ├── src/         # Assembly and C code for ATmega32 USART
 ├── matlab/      # MATLAB scripts for communication
-├── perl/        # Perl utilities for testing/automation
 ├── docs/        # Documentation, diagrams, etc.
 ├── README.md
-└── LICENSE
 ```
 
 ---
@@ -74,7 +77,7 @@ This project enables seamless serial communication between an ATmega32 microcont
    See `src/README.md` or comments in the code for instructions.
 2. **Run MATLAB scripts:**  
    Open MATLAB, navigate to `/matlab`, and execute the relevant script.
-3. **Monitor/debug communication:**  
+3. **Monitor/Temperature of a microcontroller:**  
    Use serial monitor tools or Perl scripts in `/perl`.
 
 ---
