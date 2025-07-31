@@ -1,6 +1,7 @@
 # USART Communication: ATmega32 & MATLAB
 
 This repository demonstrates USART (Universal Synchronous/Asynchronous Receiver/Transmitter) communication between an ATmega32 microcontroller and MATLAB. It includes source code for the microcontroller (in Assembly and C), scripts for MATLAB.
+<img width="1920" height="1080" alt="Proteus Design Suite" src="https://github.com/user-attachments/assets/514f117c-26e1-48b3-8f2c-62ab7869dbd8" />
 
 ---
 
