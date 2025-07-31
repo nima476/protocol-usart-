@@ -63,9 +63,9 @@ This project enables seamless serial communication between an ATmega32 microcont
 
 ```
 /
-├── src/         # Assembly and C code for ATmega32 USART
-├── matlab/      # MATLAB scripts for communication
-├── docs/        # Documentation, diagrams, etc.
+├── codevision/         # Assembly and C code for ATmega32 USART
+├── matlab/             # MATLAB scripts for communication
+├── Proteus Design Suite.png/               # diagrams, circuit.
 ├── README.md
 ```
 
@@ -78,7 +78,7 @@ This project enables seamless serial communication between an ATmega32 microcont
 2. **Run MATLAB scripts:**  
    Open MATLAB, navigate to `/matlab`, and execute the relevant script.
 3. **Monitor/Temperature of a microcontroller:**  
-   Use serial monitor tools or Perl scripts in `/perl`.
+   Use plot monitor matlab or scripts in `/matlab`.
 
 ---
 
